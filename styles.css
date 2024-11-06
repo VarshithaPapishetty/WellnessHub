@@ -1,0 +1,86 @@
+body {
+    background: url('backdrop4.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.title-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: calc(4in + 384px); /* Move title 4 inches to the right */
+}
+
+.title-container h1 {
+    font-family: 'Times New Roman', Times, serif; /* Change font to Times New Roman */
+    font-size: 40px; /* Increase font size to 40 pixels */
+    color: white; /* Change color to white */
+}
+
+.login-container, .signup-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: black;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: calc(4in + 384px);
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    background-color: #f8f8f8; /* Very light grey color */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #777;
+}
+
+p a {
+    color: #999;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
